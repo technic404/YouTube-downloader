@@ -10,8 +10,6 @@ button.addEventListener("click", async (e) => {
 
     const url = (input.value.substring(0, YOUTUBE_FULL_VIDEO_URL_LENGHT));
 
-    console.log(url);
-
     /* Frontend validation */
     const isLinkValid = (url.startsWith(YOUTUBE_BASE_URL) && url.length === YOUTUBE_FULL_VIDEO_URL_LENGHT);
 
